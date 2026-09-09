@@ -1,0 +1,46 @@
+# Build artifacts
+build/
+dist/
+*.o
+*.a
+*.so
+*.elf
+*.bin
+*.hex
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# ROS
+devel/
+install/
+log/
+.catkin_tools/
+
+# Hardware files (optional, may want to track)
+# *.step
+# *.stl
+
+# Dependencies
+node_modules/
+
+# Test coverage
+coverage/
+.coverage
+
+# Environment files
+.env
+.env.local
